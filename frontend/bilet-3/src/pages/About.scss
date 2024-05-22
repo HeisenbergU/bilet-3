@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.aboutcontainer{
+max-width: 1200px;
+margin: auto;
+
+height: 750px;
+display: flex;
+}
+
+.leftside{
+    width: 600px;
+    
+    height: 750px;
+    background: url(https://preview.colorlib.com/theme/tasty/images/about-2.jpg);
+    background-size: cover;
+}
+
+.rightsideabout{
+    width: 600px;
+    
+    height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gapforabout{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.asdas{
+    width: 275px;
+}
+
+.txtabout{
+    font-size: 15px;
+    color: gray;
+}
+
+.ourcheftxt{
+    font-size: 45px;
+}

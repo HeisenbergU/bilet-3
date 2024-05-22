@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.contanav{
+    background: url(https://preview.colorlib.com/theme/tasty/images/bg_2.jpg);
+    background-size: cover;
+}
+
+
+.container{
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.btntasty{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 30px;
+    border-color: white;
+    // border: none;
+    
+}
+
+.rightside{
+    display: flex;
+    gap: 20px;
+}
+
+.txtfontsize{
+    font-size: 20px;
+}
+
+.hvrhome:hover{
+    color: black;
+}

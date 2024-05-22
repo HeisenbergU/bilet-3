@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.containerhero{
+    max-width: 1200px;
+   
+    margin: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+    
+}
+
+.booktxt{
+    font-size: 70px;
+    color: white;
+    
+}
+.bookcontatext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 620px;
+    height: 400px;
+    
+    flex-wrap: wrap;
+}
+
+.fullconta{
+    max-width: 100%;
+    background: url(https://preview.colorlib.com/theme/tasty/images/bg_2.jpg);
+    background-size: cover;
+    margin: auto;
+}
+
+
+.btnbook{
+    width: 210px;
+    height: 60px;
+    background-color: rgba(127, 255, 212, 0);
+    border-color: white;
+    color: white;
+}
